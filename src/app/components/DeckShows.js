@@ -15,7 +15,7 @@ const DeckShows = () => {
               Improv Shows
             </h2>
             <p className={`m-auto max-w-[30ch] text-sm opacity-50 overflow-auto`}>
-              Yeah sometimes Sometimes, it's always me!
+              Yeah sometimes Sometimes, its always me!
             </p>
           </a>
           </div>

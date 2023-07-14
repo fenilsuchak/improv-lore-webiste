@@ -15,7 +15,7 @@ const DeckJamSessions = () => {
               Jam Sessions
             </h2>
             <p className={`m-auto max-w-[30ch] text-sm opacity-50 overflow-auto`}>
-              You wait it ain't to late, to finally see! How Dark can these hallways be!
+              You wait it aint to late, to finally see! How Dark can these hallways be!
 
             </p>
           </a>

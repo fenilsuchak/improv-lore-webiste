@@ -30,7 +30,7 @@ export default function Home() {
         <div>
           <AnimatedTextWord text = "Improv Lore"/>
         </div>
-        <div className='pb-10 text-white'><p>Experience Bangalore's Finest Improv</p></div>
+        <div className='pb-10 text-white'><p>Experience Bangalores Finest Improv</p></div>
 
         <div className="grid grid-cols-4 w-full gap-4 pb-30 text-white">
             <div>
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
 
         <div className = 'bg-black mt-20 rounded-2xl border border-transparent w-full'>
-            <h2 className={`m-10 text-6xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text`}>Experience Improv at it's Finest.</h2>
+            <h2 className={`m-10 text-6xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text`}>Experience Improv at its Finest.</h2>
             <p className='m-10 text-5xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text'>More than Feeling.</p>
             <p className='m-10 text-4xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text'> I think I am dreaming.</p>
             <p className='m-10 text-3xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text'> Somethin to believe in.</p>

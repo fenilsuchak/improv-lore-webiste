@@ -15,7 +15,7 @@ const DeckCorporateWorkshops = () => {
               Corporate Workshops
             </h2>
             <p className={`m-auto max-w-[30ch] text-sm opacity-50 overflow-auto`}>
-              Me I'm a product of rakim, lakim shabazz tupac in.
+              Me Im a product of rakim, lakim shabazz tupac in.
 
             </p>
           </a>

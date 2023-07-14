@@ -12,7 +12,7 @@ const DeckWorkshops = () => {
               4 Week-Workshops
             </h2>
             <p className={`m-auto max-w-[30ch] text-sm opacity-50 overflow-auto`}>
-              My Cup runneth over, spilled my guts! I'll show you what it must be too real to touch.
+              My Cup runneth over, spilled my guts! Ill show you what it must be too real to touch.
             </p>
           </div>
         );
