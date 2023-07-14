@@ -54,7 +54,7 @@ const AnimatedTextWord = ({ text }) => {
           variants={child}
           style={{ marginRight: "15px" }}
           key={index}
-          className = {`${comic_nueue.className} mb-3 text-8xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text`}
+          className = {`${comic_nueue.className} mb-3 text-6xl lg:text-8xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text`}
         >
           {word}
         </motion.h1>

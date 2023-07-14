@@ -11,7 +11,7 @@ const DeckShows = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={`mb-3 text-2xl font-semibold`}>
+            <h2 className={`mb-3 text-2xl font-semibold overflow-auto`}>
               Improv Shows
             </h2>
             <p className={`m-auto max-w-[30ch] text-sm opacity-50 overflow-auto`}>

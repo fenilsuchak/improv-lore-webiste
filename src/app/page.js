@@ -25,14 +25,14 @@ const pirate_one = Pirata_One({
 export default function Home() {
 
   return (
-    <main className="flex min-h-screen flex-col items-center">
-    <div id='section1' className="flex flex-col min-h-screen items-center p-20">
+    <div id='section1' className="flex flex-col min-h-screen w-screen p-20 text-center items-center">
         <div>
-          <AnimatedTextWord text = "Improv Lore"/>
+          <h1 className={`${comic_nueue.className} mb-3 text-6xl lg:text-8xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text`}
+        >Improv Lore</h1>
         </div>
-        <div className='pb-10 text-white'><p>Experience Bangalores Finest Improv</p></div>
+        <div className='pb-10 text-white m-auto'><p>Experience Bangalores Finest Improv</p></div>
 
-        <div className="grid grid-cols-4 w-full gap-4 pb-30 text-white">
+        <div className="grid grid-rows-4 lg:grid-cols-4 lg:grid-rows-1 w-full gap-4 pb-30 text-white">
             <div>
               <DeckWorkshops />
             </div>
@@ -47,10 +47,10 @@ export default function Home() {
             </div>
         </div>
 
-        <div className = 'bg-black mt-20 rounded-2xl border border-transparent w-full'>
+        <div className = 'bg-black mt-20 rounded-2xl border border-transparent w-full hidden sm:block'>
             <h2 className={`m-10 text-6xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text`}>Experience Improv at its Finest.</h2>
-            <p className='m-10 text-5xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text'>More than Feeling.</p>
-            <p className='m-10 text-4xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text'> I think I am dreaming.</p>
+            <p className='m-10 pb-1 text-5xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text'>More than Feeling.</p>
+            <p className='m-10 pb-1 text-4xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text'> I think I am dreaming.</p>
             <p className='m-10 text-3xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text'> Somethin to believe in.</p>
         </div>
         <div id='Meet the Team' className = 'bg-black pt-30 mt-20 rounded-2xl border border-transparent w-full'>
@@ -58,18 +58,18 @@ export default function Home() {
             <p className={`${pirate_one.className} m-10 text-2xl`}>We are a mix of people from different fields united by our love for Improv</p>
             <div id = "captains" className='text-center'>
               <h2 className={`${pirate_one.className} m-10 text-4xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text`}>Captains</h2>
-              <div className="grid grid-cols-2 gap-4">
-                <div className='bg-white rounded-full w-64 h-64 mx-auto'>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+                <div className='bg-white rounded-full md:w-64 md:h-64 w-32 h-32 mx-auto'>
                     hello
                 </div>
-                <div className='bg-white rounded-full w-64 h-64 mx-auto'>
+                <div className='bg-white rounded-full md:w-64 md:h-64 w-32 h-32 mx-auto'>
                     hello
                 </div>
               </div>
             </div>
-            <div id = "crew" className='text-center'>
+            <div id = "crew" className='text-center hidden sm:block'>
               <h2 className={`${pirate_one.className} m-10 text-4xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text`}>Crew</h2>
-              <div className="grid grid-cols-5 items-center gap-4 m-10 text-white">
+              <div className="grid lg:grid-cols-5 grid-cols-1 items-center gap-4 m-10 text-white">
                 <div className='bg-white rounded-full w-48 h-48 mx-auto'>
                     hello
                 </div>
@@ -104,15 +104,15 @@ export default function Home() {
             </div>
         </div>
         <div id='Contact Card' className = 'bg-black mt-20 rounded-2xl border border-transparent w-full'>
-            <h2 className={`m-10 text-6xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text`}>Get in touch with us!</h2>
-            <div className="grid grid-cols-10 items-center gap-2 mb-10">
-                <div className='bg-white rounded-full w-16 h-16 ml-10 mx-auto text-center'>
+            <h2 className={`m-10 mb:text-6xl text-4xl font-bold bg-gradient-to-r from-gray-300 to-gray-300 text-transparent bg-clip-text`}>Get in touch with us!</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+                <div className='bg-white rounded-full w-16 h-16  mx-auto'>
                     hello
                 </div>
-                <div className='bg-white rounded-full w-16 h-16 ml-10 mx-auto text-center'>
+                <div className='bg-white rounded-full w-16 h-16 mx-auto'>
                     hello
                 </div>
-                <div className='bg-white rounded-full w-16 h-16 ml-10 mx-auto text-center'>
+                <div className='bg-white rounded-full w-16 h-16 mx-auto'>
                     hello
                 </div>
             </div>
@@ -120,9 +120,5 @@ export default function Home() {
             <p className="text-center text-gray-400 mb-10">&copy; {new Date().getFullYear()} Improv Lore Pvt Ltd. All rights reserved.</p>
         </div>
       </div>
-      
-      
-
-    </main>
   )
 }
